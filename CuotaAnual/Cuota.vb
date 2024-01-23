@@ -8,6 +8,6 @@
     End Function
 
     Public Function cuotaAnual(ByVal Capital As Integer, ByVal Plazo As Integer, ByVal Interes As Double) As Single
-        cuotaAnual = Capital * Interes / (1 - (1 + Interes) ^ -Plazo)
+        cuotaAnual = Capital * Interes / (1 - (1 + Interes) ^ -Plazo / 12)
     End Function
 End Class
