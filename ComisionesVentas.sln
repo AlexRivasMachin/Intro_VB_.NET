@@ -5,6 +5,8 @@ VisualStudioVersion = 17.6.33723.286
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "ComisionesVentas", "Comisiones (Labo 1)- Alex Rivas\ComisionesVentas.vbproj", "{6BA5FD5B-E15B-4B96-A1B0-5FD22930BBEF}"
 EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "ClienteVentasWindow", "ClienteVentasWindow\ClienteVentasWindow.vbproj", "{101BB951-202E-4B13-A5AB-51D92DF53749}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{6BA5FD5B-E15B-4B96-A1B0-5FD22930BBEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6BA5FD5B-E15B-4B96-A1B0-5FD22930BBEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6BA5FD5B-E15B-4B96-A1B0-5FD22930BBEF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{101BB951-202E-4B13-A5AB-51D92DF53749}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{101BB951-202E-4B13-A5AB-51D92DF53749}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{101BB951-202E-4B13-A5AB-51D92DF53749}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{101BB951-202E-4B13-A5AB-51D92DF53749}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
