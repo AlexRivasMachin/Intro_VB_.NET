@@ -10,22 +10,27 @@
 <body>
 <form id="form1" runat="server">
     <p>
-        Total Ventas</p>
+        Capital</p>
     <p>
         <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
     </p>
     <p>
-        NUM. Ventas</p>
+        Plazo</p>
     <p>
         <asp:TextBox ID="TextBox2" runat="server"></asp:TextBox>
+    </p>
+    <p>
+        Interes</p>
+    <p>
+        <asp:TextBox ID="TextBox3" runat="server"></asp:TextBox>
     </p>
     <p>
         <asp:Button ID="Button1" runat="server" Text="Calcular comisión" />
     </p>
     <p>
-        La comision es:</p>
+        La cuotaAnual es:</p>
     <p>
-        <asp:TextBox ID="TextBox3" runat="server" OnTextChanged="TextBox3_TextChanged"></asp:TextBox>
+        <asp:TextBox ID="TextBox4" runat="server" OnTextChanged="TextBox3_TextChanged"></asp:TextBox>
     </p>
 </form>
 </body>
